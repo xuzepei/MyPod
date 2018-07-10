@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'MyPod/SDK/AnalyticsSDK.framework'
   s.source_files  = "MyPod/TTView.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
