@@ -91,9 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MyPod/AnalyticsSDK.framework/Headers/*.{h}"
+  s.source_files  = "MyPod/TTView.{h,m}"
   s.vendored_frameworks = 'MyPod/AnalyticsSDK.framework'
-  s.public_header_files = 'MyPod/AnalyticsSDK.framework/Headers/AnalyticsSDK.h'
 
   # s.exclude_files = "Classes/Exclude"
 
