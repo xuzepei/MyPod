@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MyPod/*.{h,m}"
+  s.source_files  = "MyPod/*.{h}"
   s.vendored_libraries = "MyPod/libMyLib.a"
   #s.vendored_frameworks = 'MyPod/AnalyticsSDK.framework'
 
