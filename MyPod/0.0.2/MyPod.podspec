@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "MyPod/*.*"
   s.vendored_libraries = "MyPod/libMyLib.a"
-  #s.vendored_frameworks = 'MyPod/AnalyticsSDK.framework'
+  s.ios.vendored_frameworks = "MyPod/TTFramework.framework"
 
   # s.exclude_files = "Classes/Exclude"
 
