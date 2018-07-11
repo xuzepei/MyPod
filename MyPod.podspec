@@ -93,9 +93,9 @@ Pod::Spec.new do |s|
 
   #s.source_files  = "MyPod/*.*"
   #s.vendored_libraries = "MyPod/libMyLib.a"
-  s.source_files = 'MyPod/TTFramework.framework/Headers/*.{h}'
-  s.ios.vendored_frameworks = "MyPod/TTFramework.framework"
-  s.public_header_files = 'MyPod/TTFramework.framework/Headers/TTFramework.h'
+  #s.source_files = 'TTFramework.framework/Headers/*.{h}'
+  s.ios.vendored_frameworks = "TTFramework.framework"
+  #s.public_header_files = 'TTFramework.framework/Headers/TTFramework.h'
 
   # s.exclude_files = "Classes/Exclude"
 
